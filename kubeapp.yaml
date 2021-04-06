@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: kubeapp
-        image: gcr.io/optimum-agent-282911/kubeapp
+        image: admcoeacr.azurecr.io/kubeapp
         ports:
         - containerPort: 80
 ---
