@@ -17,7 +17,7 @@ spec:
           image: admcoeacr.azurecr.io/kubeapp
           ports:
           - containerPort: 80
-        imagePullSecrets:  
+      imagePullSecrets:  
         - name: quotesregistry
 ---
      
