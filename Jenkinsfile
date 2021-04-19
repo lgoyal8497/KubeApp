@@ -5,7 +5,7 @@ pipeline {
  
   tools {maven "MyMaven" 
          nodejs "nodejs"
-        docker "myDocker"}
+        dockerTool "myDocker"}
   
   parameters {
         string(name: 'url', defaultValue: 'https://github.com/tapasmishraarc/SpringbootdemoPOC.git', description: 'My application url')
