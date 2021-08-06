@@ -14,7 +14,7 @@ pipeline {
     stage('CI-Pipeline') {
       steps {
         script {
-         // comment added new12
+         // comment added new137
         //readProperties "${params.url}", this
        // echo "${env.APP_NAME}"
          build  "${params.url}", this
